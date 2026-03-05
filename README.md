@@ -76,15 +76,11 @@ Ejemplos:
 | Protocolo    |                     Función                  |
 |--------------|----------------------------------------------|
 | HTTP         | Acceso a páginas web                         |
-|--------------|----------------------------------------------|
 | HTTPS        | Navegación web segura                        |
-|--------------|----------------------------------------------| 
 | FTP          | Transferencia de archivos                    |
-|--------------|----------------------------------------------|
 | DNS          | Traduce nombres de dominio a direcciones IP  |
-|--------------|----------------------------------------------|
 | DHCP         | Asigna direcciones IP automaticamente        |
-|--------------|----------------------------------------------|
+
 
 ## Modelo OSI
 El modelo OSI divide la comunicación en red en 7 capas, donde cada una cumple una función especifica.
