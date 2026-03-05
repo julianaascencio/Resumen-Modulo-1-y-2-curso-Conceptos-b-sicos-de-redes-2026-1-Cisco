@@ -95,3 +95,38 @@ El modelo OSI divide la comunicación en red en 7 capas, donde cada una cumple u
 | 2 Enlace de datos | Tramas y dirección MAC             |
 | 1 Física          | Transmisión de bits                |
 
+## Encapsulación de datos
+Cuando los datos se transmiten por una red pasan por un proceso llamado encapsulación, donde cada capa agrega información de control.
+
+El resumen del proceso es el siguiente:
+
+Datos
+↓
+Segmento (TCP)
+↓
+Paquete (IP)
+↓
+Trama (Ethernet)
+↓
+Bits
+
+## Puertos de red
+Los protocolos utilizan puertos para identificar los servicios de red.
+
+| Puerto | Servicio |
+| ------ | -------- |
+| 80     | HTTP     |
+| 443    | HTTPS    |
+| 53     | DNS      |
+| 21     | FTP      |
+| 25     | SMTP     |
+
+## Importancia de los protocolos
+Los protocolos permiten:
+- Comunicación entre diferentes dispositivos.
+- Transmisión confiable de datos.
+- Organziación del tráfico de red
+
+# Conclusión
+
+Los módulos 1 y 2 del curso Conceptos básicos de redes de Cisco permiten comprender los principios fundamentales del funcionamiento de las redes. Se abordan conceptos como los tipos de redes, los dispositivos que las componen, los medios de transmisión y la importancia de las direcciones IP y MAC para la comunicación entre equipos. Además, se introduce el modelo OSI, los protocolos de red y el proceso de encapsulación de datos, que explican cómo la información viaja a través de Internet. Estos conocimientos constituyen la base para el aprendizaje de tecnologías de red más avanzadas y para el desarrollo de habilidades en el área de telecomunicaciones y redes.
