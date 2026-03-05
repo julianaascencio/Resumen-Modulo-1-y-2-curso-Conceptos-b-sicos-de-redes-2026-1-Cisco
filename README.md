@@ -74,14 +74,9 @@ Los protocolos son reglas que permiten que los dispositivos se comuniquen correc
 Ejemplos:
 
 | Protocolo    |                     Función                  | 
-|--------------|----------------------------------------------|
 | HTTP         | Acceso a páginas web                         |
-|--------------|----------------------------------------------|
 | HTTPS        | Navegación web segura                        |
-|--------------|----------------------------------------------|
 | FTP          | Transferencia de archivos                    |
-|--------------|----------------------------------------------|
 | DNS          | Traduce nombres de dominio a direcciones IP  |
-|--------------|----------------------------------------------|
 | DHCP         | Asigna direcciones IP automaticamente        |
-|--------------|----------------------------------------------|
+
