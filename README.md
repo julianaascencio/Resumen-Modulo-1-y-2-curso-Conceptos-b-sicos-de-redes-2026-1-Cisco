@@ -74,14 +74,28 @@ Los protocolos son reglas que permiten que los dispositivos se comuniquen correc
 Ejemplos:
 
 | Protocolo    |                     Función                  |
-|              |                                              |
+|--------------|----------------------------------------------|
 | HTTP         | Acceso a páginas web                         |
 |--------------|----------------------------------------------|
 | HTTPS        | Navegación web segura                        |
-|--------------|----------------------------------------------|                                      
+|--------------|----------------------------------------------| 
 | FTP          | Transferencia de archivos                    |
 |--------------|----------------------------------------------|
 | DNS          | Traduce nombres de dominio a direcciones IP  |
 |--------------|----------------------------------------------|
 | DHCP         | Asigna direcciones IP automaticamente        |
+|--------------|----------------------------------------------|
+
+## Modelo OSI
+El modelo OSI divide la comunicación en red en 7 capas, donde cada una cumple una función especifica.
+
+| Capa              | Función                            |
+| ----------------- | ---------------------------------- |
+| 7 Aplicación      | Interacción con las aplicaciones   |
+| 6 Presentación    | Formato y cifrado de datos         |
+| 5 Sesión          | Control de la comunicación         |
+| 4 Transporte      | Entrega confiable de datos         |
+| 3 Red             | Direccionamiento IP y enrutamiento |
+| 2 Enlace de datos | Tramas y dirección MAC             |
+| 1 Física          | Transmisión de bits                |
 
